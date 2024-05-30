@@ -1,0 +1,29 @@
+data:
+  gpu: 0
+  in_memory: 1
+  num_workers: 8
+dist:
+  world_size: 1
+logging:
+  folder: /tmp/
+model:
+    arch: ViT
+    patch_size: 32
+    base_width: 256
+    base_depth: 6
+    base_heads: 4
+    base_dim_head: 64
+    base_ffn_expansion: 1
+    dropout: 0
+training:
+  lr: 1e-3
+  schedule: cosine
+  batch_size: 1024
+  distributed: 0
+  epochs: 300
+  warmup_epochs: 5
+  label_smoothing: 0.1
+  mixup: 0
+  optimizer: adamw
+  weight_decay: 0
+  clip_grad: 1
