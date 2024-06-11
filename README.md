@@ -1,5 +1,5 @@
 # Compute Better Spent: Replacing Dense Layers with Structured Matrices
-This repository contains the code for the paper [Compute Better Spent: Replacing Dense Layers with Structured Matrices](https://github.com/shikaiqiu/compute-better-spent) by Shikai Qiu, Andres Potapczynski, Marc Finzi, Micah Goldblum, and Andrew Gordon Wilson.
+This repository contains the code for the paper [Compute Better Spent: Replacing Dense Layers with Structured Matrices](https://arxiv.org/abs/2406.06248) by Shikai Qiu, Andres Potapczynski, Marc Finzi, Micah Goldblum, and Andrew Gordon Wilson.
 
 <figure>
   <img src="./assets/top_fig.png" alt="Image">
